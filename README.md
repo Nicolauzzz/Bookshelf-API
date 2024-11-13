@@ -21,17 +21,14 @@ Welcome to **Bookshelf API**! This API is a simple, lightweight solution for man
 
 ## 🛠 Built With
 
-- **Hapi.js** - A rich framework for buiding applications and services
-- **nanoID** - For generating unique IDs for books.
+- **Hapi.js** - A rich framework for building applications and services
+- **nanoID** - This is used to generate unique IDs for books.
 
 ## 📄 License
 
-THis project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) for details
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) for details
 
 ## 🙋‍♂️ Author
 - **Nicolauzzz** - [Github](https://github.com/nicolauzzz)
 
 ## 🍻 Cheers
-
-
-
