@@ -2,7 +2,7 @@
 
 Welcome to **Bookshelf API**! This API is a simple, lightweight solution for managing books on a digital shelf, allowing users to add, update, view, and delete book records. Built with **Hapi.js** framework, this project serves as a beginner-friendly, scalable, and RESTful API perfect for learning backend development.
 
-![Get All Books Example]![Screenshot 2024-11-13 194900](https://github.com/user-attachments/assets/015d71fc-1e8b-4bbb-b9c6-25a3df8e30ee)
+![Screenshot 2024-11-13 194900](https://github.com/user-attachments/assets/015d71fc-1e8b-4bbb-b9c6-25a3df8e30ee)
 
 
 ## 🎯 Features
