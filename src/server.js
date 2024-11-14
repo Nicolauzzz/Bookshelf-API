@@ -18,14 +18,14 @@ const init = async () => {
 
       if (!name) {
         return h.response({
-          status: 'fail ndesss',
+          status: 'fail',
           message: 'Gagal menambahkan buku. Mohon isi nama buku',
         }).code(400);
       }
 
       if (readPage > pageCount) {
         return h.response({
-          status: 'fail ndesss',
+          status: 'fail',
           message: 'Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount',
         }).code(400);
       }
@@ -108,7 +108,7 @@ const init = async () => {
 
       if (!book) {
         return h.response({
-          status: 'fail ndesss',
+          status: 'fail',
           message: 'Buku tidak ditemukan',
         }).code(404);
       }
@@ -132,14 +132,14 @@ const init = async () => {
 
       if (!name) {
         return h.response({
-          status: 'fail ndesss',
+          status: 'fail',
           message: 'Gagal memperbarui buku. Mohon isi nama buku',
         }).code(400);
       }
 
       if (readPage > pageCount) {
         return h.response({
-          status: 'fail ndesss',
+          status: 'fail',
           message: 'Gagal memperbarui buku. readPage tidak boleh lebih besar dari pageCount',
         }).code(400);
       }
@@ -147,7 +147,7 @@ const init = async () => {
       const bookIndex = books.findIndex(b => b.id === bookId);
       if (bookIndex === -1) {
         return h.response({
-          status: 'fail ndesss',
+          status: 'fail',
           message: 'Gagal memperbarui buku. Id tidak ditemukan',
         }).code(404);
       }
@@ -185,7 +185,7 @@ const init = async () => {
 
       if (bookIndex === -1) {
         return h.response({
-          status: 'fail ndesss',
+          status: 'fail',
           message: 'Buku gagal dihapus. Id tidak ditemukan',
         }).code(404);
       }
